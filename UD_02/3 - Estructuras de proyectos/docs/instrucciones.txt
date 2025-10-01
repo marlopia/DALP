@@ -1,0 +1,2 @@
+Este programa calcula ingredientes según comensales.
+Ejecuta: python src/main.py

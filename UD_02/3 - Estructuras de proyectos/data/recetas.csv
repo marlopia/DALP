@@ -2,3 +2,7 @@ receta,ingrediente,cantidad_unidad,unidad
 tortilla,huevo,2,unidad
 tortilla,patata,300,gramos
 tortilla,cebolla,100,gramos
+
+ensalada,lechuga,1,unidad
+ensalada,tomate,2,unidad
+ensalada,aceite,2,cucharadas

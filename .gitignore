@@ -2,3 +2,4 @@
 /.venv
 *.sqlite*
 Proyecto_WebScrapping/cookie.txt
+Proyecto_WebScrapping/output.xlsx

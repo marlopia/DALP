@@ -1,0 +1,2 @@
+Para evitar errores de git el repositiorio del ejercicio le he editado la carpeta de git a NOTgit,
+basta con renombrar a git la carpeta para restaurar el estado del repositiorio

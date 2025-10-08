@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 66342ea5278e6f3c241a4fbf2e0d1904ffa89aea Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759850872 +0200	clone: from https://github.com/LaguardiaOraa/mi_proyecto
+66342ea5278e6f3c241a4fbf2e0d1904ffa89aea 663b0add47887821838604febd19faad4f768ea6 Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759851017 +0200	commit: Cambiar idioma de main.py a ingles
+663b0add47887821838604febd19faad4f768ea6 fadc1fe3aad1fb75f3b14dee87219fc2da28a738 Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759853358 +0200	commit (merge): Merge conflict resuelto
+fadc1fe3aad1fb75f3b14dee87219fc2da28a738 fadc1fe3aad1fb75f3b14dee87219fc2da28a738 Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759854137 +0200	checkout: moving from master to master
+fadc1fe3aad1fb75f3b14dee87219fc2da28a738 fadc1fe3aad1fb75f3b14dee87219fc2da28a738 Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759854160 +0200	checkout: moving from master to fadc1fe3aad1fb75f3b14dee87219fc2da28a738
+fadc1fe3aad1fb75f3b14dee87219fc2da28a738 fadc1fe3aad1fb75f3b14dee87219fc2da28a738 Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759854195 +0200	checkout: moving from fadc1fe3aad1fb75f3b14dee87219fc2da28a738 to master
+fadc1fe3aad1fb75f3b14dee87219fc2da28a738 55de28bd992bdac4789ea3851a0e2d4e88dfe39e Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759854293 +0200	pull --tags origin master: Fast-forward
+55de28bd992bdac4789ea3851a0e2d4e88dfe39e 96dd05befd2b1e8492d20dcbfa268a503a51d031 Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759854536 +0200	commit: Emm aktually tu gitignore estaba incorrecto, correjjjjido
+96dd05befd2b1e8492d20dcbfa268a503a51d031 8e8f687796d6fb75d9b3bd07eca66bc9d2213fbb Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759855478 +0200	commit: Añadido logout
+8e8f687796d6fb75d9b3bd07eca66bc9d2213fbb 8e8f687796d6fb75d9b3bd07eca66bc9d2213fbb Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759855494 +0200	checkout: moving from master to master
+8e8f687796d6fb75d9b3bd07eca66bc9d2213fbb 96dd05befd2b1e8492d20dcbfa268a503a51d031 Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759855684 +0200	reset: moving to HEAD^
+96dd05befd2b1e8492d20dcbfa268a503a51d031 96dd05befd2b1e8492d20dcbfa268a503a51d031 Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759855695 +0200	checkout: moving from master to feature/logout
+96dd05befd2b1e8492d20dcbfa268a503a51d031 98611cabeaf33ff715effe60ebfac738b5ec2e0f Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759855728 +0200	commit: Añadido logout
+98611cabeaf33ff715effe60ebfac738b5ec2e0f 96dd05befd2b1e8492d20dcbfa268a503a51d031 Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759855733 +0200	checkout: moving from feature/logout to master
+96dd05befd2b1e8492d20dcbfa268a503a51d031 98611cabeaf33ff715effe60ebfac738b5ec2e0f Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759855740 +0200	checkout: moving from master to feature/logout
+98611cabeaf33ff715effe60ebfac738b5ec2e0f 96dd05befd2b1e8492d20dcbfa268a503a51d031 Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759855806 +0200	checkout: moving from feature/logout to master
+96dd05befd2b1e8492d20dcbfa268a503a51d031 0e757b360ab90132c70350f85bc18120ef4fdc11 Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759855815 +0200	pull: Fast-forward
+0e757b360ab90132c70350f85bc18120ef4fdc11 b704fe6879c7b95c499c57e2c207531abbaa378d Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759855843 +0200	merge feature/logout: Merge made by the 'ort' strategy.
+b704fe6879c7b95c499c57e2c207531abbaa378d b704fe6879c7b95c499c57e2c207531abbaa378d Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759856297 +0200	checkout: moving from master to test
+b704fe6879c7b95c499c57e2c207531abbaa378d 71fb3c26c984c0d323d15c7507ac12f63f80212a Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759856348 +0200	commit: test
+71fb3c26c984c0d323d15c7507ac12f63f80212a c3539ea92df0ddf5dfa95528d426d5643daca563 Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759856420 +0200	commit: JAJA HACKEADO
+c3539ea92df0ddf5dfa95528d426d5643daca563 b704fe6879c7b95c499c57e2c207531abbaa378d Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759856480 +0200	checkout: moving from test to master
+b704fe6879c7b95c499c57e2c207531abbaa378d f96a6137773ada70aba58afed76dbe4b0116d0eb Mario Lopez Gonzalez <marlopiacj@gmail.com> 1759856513 +0200	commit: Comentarios mejorados

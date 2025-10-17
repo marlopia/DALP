@@ -7,3 +7,4 @@ Proyecto_WebScrapping/output.xlsx
 Proyecto_WebScrapping/graficos_cursos
 *.~lock*
 *.pytest_cache*
+*.db

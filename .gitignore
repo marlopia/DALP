@@ -6,3 +6,4 @@ Proyecto_WebScrapping/cookie.txt
 Proyecto_WebScrapping/output.xlsx
 *.~lock*
 *.pytest_cache*
+.NOTgit

@@ -1,0 +1,8 @@
+<!-- templates/perfil.html -->
+{% extends "base.html" %}
+{% block title %}Perfil{% endblock %}
+{% block content %}
+<h2>Perfil</h2>
+<p>Hola {{ usuario }}!</p>
+<p><a href="{{ url_for('logout') }}">Cerrar sesión</a></p>
+{% endblock %}

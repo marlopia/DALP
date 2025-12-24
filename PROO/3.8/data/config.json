@@ -1,0 +1,22 @@
+{
+    "app_config": {
+        "theme": "dark",
+        "language": "es",
+        "notifications": {
+            "enabled": true,
+            "sound": true,
+            "vibration": false,
+            "daily_summary": true
+        },
+        "privacy": {
+            "share_usage_data": false,
+            "allow_personalization": true
+        },
+        "user_preferences": {
+            "font_size": "medium",
+            "auto_save": true,
+            "backup_frequency": "weekly"
+        },
+        "version": "1.0.3"
+    }
+}

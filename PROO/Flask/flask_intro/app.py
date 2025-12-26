@@ -91,5 +91,38 @@ def api_saludo():
     return jsonify({"saludo": f"Hola, {nombre}"})
 
 
+tareas = []
+next_id = 1
+
+
+@app.route("/api/tareas", methods=["GET"])
+def get_tareas():
+    return jsonify(tareas)
+
+
+@app.route("/api/tareas", methods=["POST"])
+def crear_tarea():
+    global next_id
+    data = request.get_json()
+
+    if not data or "texto" not in data:
+        return jsonify({"error": "Falta el campo 'texto'"}), 400
+
+    tarea = {"id": next_id, "texto": data["texto"], "done": False}
+    tareas.append(tarea)
+    next_id += 1
+
+    return jsonify(tarea), 201
+
+
+@app.route("/api/tareas/<int:id>", methods=["DELETE"])
+def borrar_tarea(id):
+    for tarea in tareas:
+        if tarea["id"] == id:
+            tareas.remove(tarea)
+            return jsonify({"mensaje": "Tarea eliminada"})
+    return jsonify({"error": "Tarea no encontrada"}), 404
+
+
 if __name__ == "__main__":
     app.run(debug=True)

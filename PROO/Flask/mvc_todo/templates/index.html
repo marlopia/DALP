@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Listado{% endblock %}
+
+{% block content %}
+{% if items|length == 0 %}
+<p>No hay tareas todavía. Crea la primera.</p>
+{% else %}
+<ul class="todo-list">
+  {% for t in items %}
+  <li class="{% if t.done %}done{% endif %}">
+    <span>{{ t.title }}</span>
+    <span>
+      <select disabled>
+        <option value="low" {% if t.priority=='low' %}selected{% endif %}>Baja</option>
+        <option value="medium" {% if t.priority=='medium' %}selected{% endif %}>Media</option>
+        <option value="high" {% if t.priority=='high' %}selected{% endif %}>Alta</option>
+      </select>
+    </span>
+    <form method="post" action="{{ url_for('todo.toggle', index=loop.index0) }}">
+      <button type="submit">{% if t.done %}Desmarcar{% else %}Hecha{% endif %}</button>
+    </form>
+    <form method="post" action="{{ url_for('todo.delete', index=loop.index0) }}">
+      <button type="submit">Borrar</button>
+    </form>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% endblock %}

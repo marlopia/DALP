@@ -1,0 +1,10 @@
+body { font-family: system-ui, Arial, sans-serif; margin: 20px; }
+header { display: flex; align-items: baseline; gap: 16px; }
+header a { text-decoration: none; }
+.todo-list { padding-left: 0; list-style: none; }
+.todo-list li { display: flex; gap: 8px; align-items: center; margin: 8px 0; }
+.todo-list li.done span { text-decoration: line-through; opacity: 0.7; }
+.messages ul { padding-left: 0; list-style: none; }
+.messages li.success { background: #eaffea; padding: 8px; }
+.messages li.error { background: #ffecec; padding: 8px; }
+.hint { font-size: 0.9rem; opacity: 0.8; }

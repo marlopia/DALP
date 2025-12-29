@@ -5,6 +5,7 @@
 {% if items|length == 0 %}
 <p>No hay tareas todavía. Crea la primera.</p>
 {% else %}
+<p>Total tareas completadas: {{ complete }}</p>
 <ul class="todo-list">
   {% for t in items %}
   <li class="{% if t.done %}done{% endif %}">

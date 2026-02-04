@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Tareas{% endblock %}
+
+{% block content %}
+
+{% for message in get_flashed_messages() %}
+<div class="flash-message">{{ message }}</div>
+{% endfor %}
+
+<h2>Listado de tareas:</h2>
+
+<ol>
+    {% for tarea in tareas %}
+    <li>
+        {{ tarea.texto }}
+        <form method="POST" action="{{ url_for('tarea_toggle', id=tarea.id) }}" style="display:inline;">
+            <input type="submit" value="{% if tarea.done %}✔{% else %}Pendiente{% endif %}">
+        </form>
+    </li>
+    {% endfor %}
+</ol>
+
+<h3>Añadir nueva tarea:</h3>
+<form method="POST" action="{{ url_for('tareas') }}">
+    <textarea name="texto" rows="2" cols="40" placeholder="Nueva tarea" required></textarea><br>
+    <input type="submit" value="Añadir Tarea">
+</form>
+
+{% endblock %}

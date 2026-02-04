@@ -1,0 +1,4 @@
+Mi nombre es Mario
+Mi apellido es López
+Tengo 23 años
+Mi color favorito es Morado

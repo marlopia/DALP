@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Nueva tarea{% endblock %}
+
+{% block content %}
+<h2>Nueva tarea</h2>
+<form method="post" action="{{ url_for('todo.create') }}">
+  <label for="title">Título</label>
+  <input id="title" name="title" type="text" value="{{ title|default('') }}" required>
+  <select name="priority">
+    <option value="low">Baja</option>
+    <option value="medium">Media</option>
+    <option value="high">Alta</option>
+  </select>
+  <button type="submit">Crear</button>
+</form>
+
+<p class="hint">Regla: mínimo 3 caracteres (validado en el Modelo).</p>
+{% endblock %}

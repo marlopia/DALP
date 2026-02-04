@@ -1,0 +1,26 @@
+<!-- templates/contacto.html -->
+{% extends "base.html" %}
+
+{% block title %}Contacto{% endblock %}
+
+{% block content %}
+<h2>Formulario de contacto</h2>
+
+{% if errores %}
+<ul style="color:red;">
+    {% for error in errores %}
+    <li>{{ error }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<form method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" value="{{ nombre }}"><br><br>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje">{{ mensaje }}</textarea><br><br>
+
+    <button type="submit">Enviar</button>
+</form>
+{% endblock %}
